@@ -1,7 +1,7 @@
 module Diffbot
   class APIClient 
     class FaradayMiddleware
-      class ParseJson < Faraday::Response::Middleware
+      class ParseJson < Faraday::Middleware
         WHITESPACE_REGEX = /\A^\s*$\z/
 
         def parse(body)

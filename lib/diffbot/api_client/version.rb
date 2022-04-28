@@ -8,7 +8,7 @@ if !defined?(::Diffbot::APIClient::VERSION)
         MAJOR = 0
         MINOR = 1
         TINY  = 1
-        PATCH = nil
+        PATCH = 1
         STRING = [MAJOR, MINOR, TINY, PATCH].compact.join('.')
       end
 
